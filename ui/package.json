@@ -1,0 +1,15 @@
+{
+  "name": "cassini-ui",
+  "version": "1.0.0",
+  "description": "UI for Cassini Service Discovery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Gustavo Cavalcante",
+    "email": "nowayhecodes@gmail.com"
+  },
+  "license": "ISC"
+}
