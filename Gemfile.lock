@@ -68,6 +68,7 @@ DEPENDENCIES
   guard
   minitest
   puma
+  rack
   rspec
   sinatra
 
