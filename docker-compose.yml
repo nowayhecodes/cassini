@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  cassini:
+    image: rubesta
+    ports:
+      - 3000:3000
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cassini
+    command: ["thin", "-R", "config.ru", "-a", "0.0.0.0", "-p", "3000", "start"]
